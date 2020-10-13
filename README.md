@@ -13,3 +13,6 @@ App focused on showing the basic elements of layout
     UITabBarController
     UIPageControl
     UIScrollView
+    UIPickerViewDelegate
+    UIPickerViewDataSource
+    UIScrollViewDelegate
