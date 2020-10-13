@@ -12,6 +12,12 @@
 		82F7B4E7253624BC007825C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F7B4E5253624BC007825C3 /* Main.storyboard */; };
 		82F7B4E9253624BE007825C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F7B4E8253624BE007825C3 /* Assets.xcassets */; };
 		82F7B4EC253624BE007825C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F7B4EA253624BE007825C3 /* LaunchScreen.storyboard */; };
+		82F7B51E253655BE007825C3 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7B518253655BE007825C3 /* PickerViewController.swift */; };
+		82F7B51F253655BE007825C3 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7B519253655BE007825C3 /* SwitchViewController.swift */; };
+		82F7B520253655BE007825C3 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7B51A253655BE007825C3 /* DatePickerViewController.swift */; };
+		82F7B521253655BE007825C3 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7B51B253655BE007825C3 /* PageControlViewController.swift */; };
+		82F7B522253655BE007825C3 /* SegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7B51C253655BE007825C3 /* SegmentedControlViewController.swift */; };
+		82F7B523253655BE007825C3 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7B51D253655BE007825C3 /* SliderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		82F7B4E8253624BE007825C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82F7B4EB253624BE007825C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82F7B4ED253624BE007825C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F7B518253655BE007825C3 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		82F7B519253655BE007825C3 /* SwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		82F7B51A253655BE007825C3 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		82F7B51B253655BE007825C3 /* PageControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		82F7B51C253655BE007825C3 /* SegmentedControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlViewController.swift; sourceTree = "<group>"; };
+		82F7B51D253655BE007825C3 /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		82F7B4DE253624BC007825C3 /* UIElements */ = {
 			isa = PBXGroup;
 			children = (
+				82F7B517253655BE007825C3 /* Controllers */,
 				82F7B4DF253624BC007825C3 /* AppDelegate.swift */,
 				82F7B4E1253624BC007825C3 /* SceneDelegate.swift */,
 				82F7B4E5253624BC007825C3 /* Main.storyboard */,
@@ -62,6 +75,19 @@
 				82F7B4ED253624BE007825C3 /* Info.plist */,
 			);
 			path = UIElements;
+			sourceTree = "<group>";
+		};
+		82F7B517253655BE007825C3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82F7B518253655BE007825C3 /* PickerViewController.swift */,
+				82F7B519253655BE007825C3 /* SwitchViewController.swift */,
+				82F7B51A253655BE007825C3 /* DatePickerViewController.swift */,
+				82F7B51B253655BE007825C3 /* PageControlViewController.swift */,
+				82F7B51C253655BE007825C3 /* SegmentedControlViewController.swift */,
+				82F7B51D253655BE007825C3 /* SliderViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F7B51E253655BE007825C3 /* PickerViewController.swift in Sources */,
+				82F7B520253655BE007825C3 /* DatePickerViewController.swift in Sources */,
 				82F7B4E0253624BC007825C3 /* AppDelegate.swift in Sources */,
+				82F7B522253655BE007825C3 /* SegmentedControlViewController.swift in Sources */,
+				82F7B521253655BE007825C3 /* PageControlViewController.swift in Sources */,
+				82F7B51F253655BE007825C3 /* SwitchViewController.swift in Sources */,
 				82F7B4E2253624BC007825C3 /* SceneDelegate.swift in Sources */,
+				82F7B523253655BE007825C3 /* SliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
