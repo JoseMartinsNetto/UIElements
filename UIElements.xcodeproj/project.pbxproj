@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8235C56925B64C38003BE506 /* UIMenuControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235C56825B64C38003BE506 /* UIMenuControllerViewController.swift */; };
 		82F7B4E0253624BC007825C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7B4DF253624BC007825C3 /* AppDelegate.swift */; };
 		82F7B4E2253624BC007825C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7B4E1253624BC007825C3 /* SceneDelegate.swift */; };
 		82F7B4E7253624BC007825C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F7B4E5253624BC007825C3 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8235C56825B64C38003BE506 /* UIMenuControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMenuControllerViewController.swift; sourceTree = "<group>"; };
 		82F7B4DC253624BC007825C3 /* UIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F7B4DF253624BC007825C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82F7B4E1253624BC007825C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				82F7B51B253655BE007825C3 /* PageControlViewController.swift */,
 				82F7B51C253655BE007825C3 /* SegmentedControlViewController.swift */,
 				82F7B51D253655BE007825C3 /* SliderViewController.swift */,
+				8235C56825B64C38003BE506 /* UIMenuControllerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82F7B51E253655BE007825C3 /* PickerViewController.swift in Sources */,
+				8235C56925B64C38003BE506 /* UIMenuControllerViewController.swift in Sources */,
 				82F7B520253655BE007825C3 /* DatePickerViewController.swift in Sources */,
 				82F7B4E0253624BC007825C3 /* AppDelegate.swift in Sources */,
 				82F7B522253655BE007825C3 /* SegmentedControlViewController.swift in Sources */,
